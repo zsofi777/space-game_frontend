@@ -1,0 +1,119 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50px;
+  height: 220px;
+}
+
+.linkbutton p {
+  font-family: 'hacked';
+  font-size: 35px;
+  text-decoration: none;
+  margin: 10px 0 0 0;
+}
+
+.buildingsButton, .troopsButton, .battleButton, .leaderboardButton {
+  background: none;
+  width: 120px;
+  margin: 30px;
+  border: none;
+}
+
+.buildingsButton p {
+  position: absolute;
+  left: 8%;
+}
+
+.troopsButton p {
+  position: absolute;
+  left: 32%;
+}
+
+.battleButton p {
+  position: absolute;
+  left: 55%;
+}
+
+.leaderboardButton p {
+  position: absolute;
+  left: 74.5%;
+} 
+
+.linkbutton {
+  background: none;
+  width: 120px;
+  text-decoration: none;
+  position: center;
+  text-align: center;
+} 
+
+.linkbutton:active {
+  text-decoration: none;
+} 
+
+img {
+  width: 150px;
+  height: 110px;
+  border-radius: 20px;
+}
+
+.resources {
+  width: 200px;
+  height: 150px;
+  background: url(../assets/images/frame.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3px 6px;   
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
+
+p {
+  background: rgb(222,16,193);
+  background:linear-gradient(90deg, rgba(222,16,193,1) 0%, rgba(143,25,201,1) 46%, rgb(14, 139, 118) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+
+.food {
+  margin-top: 35px; 
+  margin-left: 40px;  
+}
+
+.gold {
+  margin-left: 40px; 
+}
+
+img.foodPic {
+  width: 23px;
+  height: 35px;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+img.goldPic {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+}
+
+p.food {
+  position: absolute;
+  top: 7%;
+  left: 29%;
+}
+
+p.gold {
+  position: absolute;
+  top: 43%;
+  left: 29%;
+}

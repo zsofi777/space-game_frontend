@@ -1,0 +1,50 @@
+.leaderboardPage {
+  background: url(../assets/images/leaderBg.jpg);
+  position: fixed;  
+  overflow: hidden;
+  z-index: -1;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;   
+}
+  
+.leaderBuildingsButton, .leaderTroopsButton {
+  background: none;
+  width: 90px;
+  height: 90px;
+  border: none; 
+}
+
+.leaderbuttons img {
+  width: 120px;
+  height: 120px; 
+}
+
+.leaderBuildingsButton img {
+  transform: rotate(-25deg);
+}
+  
+.leaderTroopsButton img {
+  transform: rotate(10deg);
+}
+
+.leaderBuildingsButton {
+  position: absolute;
+  top: 50%;
+  left: 70%; 
+}
+
+.leaderTroopsButton {
+  position: absolute;
+  top: 60%;
+  left: 55%; 
+}
+
+.leaderbuttons p {
+  width: 135px;
+}
+
+.leaderBuildingsButton p {
+  padding-top: 10px;
+}

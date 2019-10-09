@@ -1,0 +1,60 @@
+.buildingLeaderboardContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  left: 45%;
+}
+
+.buildingLeaderboard {
+  display: flex;
+  background: url(../assets/images/lBuiListBg.jpg);
+  background-size: cover;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.leaderboardElement {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+button#showLess {
+  background: url(../assets/images/minus.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-bottom: 1px;
+  padding: 0;
+  width: 100px;
+  height: 50px;
+  border: none;
+  outline: none;
+}
+
+button#showMore {
+  background: url(../assets/images/plus.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  margin-left: 100px;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  border: none;
+  outline: none;
+}
+
+.buildingLeaderboardEnd {
+  width: 100px;
+  height: 50px;
+}
