@@ -8,7 +8,7 @@
 
 :arrow_down: NodeJS, ExpressJS and MongoDB in the **backend**
 
-:heavy_plus_sign: JavaScript, TypeScript, HTML, CSS, Mongoose, Mocha with Chai, Git, GitHub, Slack, Jira, Scrum/Agile methodologies.
+:heavy_plus_sign: JavaScript, TypeScript, HTML, CSS, Mongoose, Mocha with Chai, Git, GitHub, Slack, Jira, Scrum/Agile methodologies
 #
 **The project team:**
 
